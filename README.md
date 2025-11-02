@@ -52,16 +52,24 @@ AWS Bedrock / OpenAI / Anthropic / Gemini
             ↓
    Dashboards + API Gateway + Terraform Infrastructure
 ```
+
+---
+
 ## 🗓️ Roadmap (16 Weeks)
-### Phase	Focus	Deliverables
-#### Sprint 1–2	🧱 Platform Skeleton	AWS Bedrock Gateway, Terraform Modules, Cost/Latency Metrics
-#### Sprint 3–6	📚 RAG System & Guardrails	RAG Ingestion, Evaluation CI, PII Redaction & Refusal Policies
-#### Sprint 7–10	🤖 Agentic DevOps Assistant	Claude Code + Cursor, Repo Automation, PR Workflow
-#### Sprint 11–14	💳 FinTech Copilot	Trade Surveillance Copilot, Snowflake + Databricks Pipeline, KPI Dashboard
-#### Sprint 15–16	✨ Polish & Apply	Portfolio Case Study, Interview Kit, LinkedIn Updates
+
+| Phase | Focus | Deliverables |
+|-------|-------|--------------|
+| Sprint 1–2 | 🧱 Platform Skeleton | AWS Bedrock Gateway, Terraform Modules, Cost/Latency Metrics |
+| Sprint 3–6 | 📚 RAG System & Guardrails | RAG Ingestion, Evaluation CI, PII Redaction & Refusal Policies |
+| Sprint 7–10 | 🤖 Agentic DevOps Assistant | Claude Code + Cursor, Repo Automation, PR Workflow |
+| Sprint 11–14 | 💳 FinTech Copilot | Trade Surveillance Copilot, Snowflake + Databricks Pipeline, KPI Dashboard |
+| Sprint 15–16 | ✨ Polish & Apply | Portfolio Case Study, Interview Kit, LinkedIn Updates |
+
+---
 
 ## 📂 Repository Structure
-``` text
+
+```text
 fin-ai-platform/
 ├── infra/                   # Terraform IaC (API Gateway, Lambda, Bedrock, Vector DB)
 │   ├── modules/
@@ -85,46 +93,66 @@ fin-ai-platform/
 │   └── playbooks/
 └── README.md
 ```
+
+---
+
 ## ⚙️ Tech Stack
-### Category	Tools & Frameworks
-#### Core	AWS, Bedrock, Lambda, API Gateway, Terraform, LangGraph, Claude Code, Cursor
-#### Languages	TypeScript, Python
-#### Data Layer	Snowflake, Databricks, Vector DB (OpenSearch Serverless / pgvector)
-#### Evaluation	LangSmith, Ragas
-#### Observability	CloudWatch, Grafana, Cost Metrics
-#### Frontend / UI	React (Vercel-hosted dashboard for demos)
+
+| Category | Tools & Frameworks |
+|----------|-------------------|
+| Core | AWS, Bedrock, Lambda, API Gateway, Terraform, LangGraph, Claude Code, Cursor |
+| Languages | TypeScript, Python |
+| Data Layer | Snowflake, Databricks, Vector DB (OpenSearch Serverless / pgvector) |
+| Evaluation | LangSmith, Ragas |
+| Observability | CloudWatch, Grafana, Cost Metrics |
+| Frontend / UI | React (Vercel-hosted dashboard for demos) |
+
+---
 
 ## 🎯 Objectives
-### Architect and deploy multi-model AI systems using Bedrock, Claude, GPT, and Gemini
-### Implement RAG pipelines with measurable accuracy and safety guardrails
-### Develop agentic systems for DevOps automation (Claude Code + Cursor)
-### Showcase engineering leadership through structured repos, CI/CD, and documentation
-### Deliver concrete SLOs — latency, cost, accuracy, safety
+
+- Architect and deploy multi-model AI systems using Bedrock, Claude, GPT, and Gemini
+- Implement RAG pipelines with measurable accuracy and safety guardrails
+- Develop agentic systems for DevOps automation (Claude Code + Cursor)
+- Showcase engineering leadership through structured repos, CI/CD, and documentation
+- Deliver concrete SLOs — latency, cost, accuracy, safety
+
+---
 
 ## 🧠 Use Cases Demonstrated
+
 ### RAG for Policy & Compliance Docs
-#### Build an enterprise-grade document Q&A system with CI-gated evaluation.
+Build an enterprise-grade document Q&A system with CI-gated evaluation.
 
 ### Agentic DevOps Assistant
-#### Use LLMs to automate code changes, run tests, and safely open pull requests.
+Use LLMs to automate code changes, run tests, and safely open pull requests.
 
 ### FinTech Trade Surveillance Copilot
-#### Detect anomalous transactions with explainable AI and dashboard insights.
+Detect anomalous transactions with explainable AI and dashboard insights.
+
+---
 
 ## 🧭 16-Week Milestone Plan
-### Week	Milestone	Deliverables
-#### 1–2	Platform Skeleton	Bedrock Gateway + Terraform + Metrics
-#### 3–4	RAG MVP	Vector Search + API Query
-#### 5–6	Eval + Guardrails	CI evaluation + Safety checks
-#### 7–8	Agentic MVP	Repo Automation (Claude Code + Cursor)
-#### 9–10	Audit & UX	Dry-run mode + Audit Logs
-#### 11–14	FinTech Copilot	Trade data pipeline + Alerts + Dashboard
-#### 15–16	Polish & Apply	Case Study + LinkedIn + Applications
+
+| Week | Milestone | Deliverables |
+|------|-----------|--------------|
+| 1–2 | Platform Skeleton | Bedrock Gateway + Terraform + Metrics |
+| 3–4 | RAG MVP | Vector Search + API Query |
+| 5–6 | Eval + Guardrails | CI evaluation + Safety checks |
+| 7–8 | Agentic MVP | Repo Automation (Claude Code + Cursor) |
+| 9–10 | Audit & UX | Dry-run mode + Audit Logs |
+| 11–14 | FinTech Copilot | Trade data pipeline + Alerts + Dashboard |
+| 15–16 | Polish & Apply | Case Study + LinkedIn + Applications |
+
+---
 
 ## 📬 Follow Progress
-## 🧵 LinkedIn Updates
-## 💡 Weekly Dev & Demo Posts — coming soon
-## 📘 Case Study PDF — to be published at project completion
+
+- 🧵 **LinkedIn Updates**
+- 💡 **Weekly Dev & Demo Posts** — coming soon
+- 📘 **Case Study PDF** — to be published at project completion
+
+---
 
 ## 🪪 License
 This project is open for educational and portfolio purposes only.
