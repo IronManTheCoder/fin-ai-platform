@@ -1,0 +1,23 @@
+{
+    "name": "platform-api",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=20"
+    },
+    "scripts": {
+        "build": "node ./scripts/build.mjs",
+        "clean": "rm -rf dist",
+        "lint": "echo \"(add eslint later)\"",
+        "test": "echo \"(add tests later)\""
+    },
+    "dependencies": {
+        "@aws-sdk/client-bedrock-runtime": "^3.666.0",
+        "groq-sdk": "^0.34.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.9.2",
+        "esbuild": "^0.24.0"
+    }
+}
